@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpBoy
 {
-    class CPU
+    public class CPU
     {
         /* Zilog Z80
          * RAM : 8K
@@ -28,7 +28,7 @@ namespace CSharpBoy
         {
             get
             {
-                return Convert.ToUInt16(B << 8 + C);
+                return Convert.ToUInt16((B << 8) + C);
             }
             set
             {
@@ -41,7 +41,7 @@ namespace CSharpBoy
         {
             get
             {
-                return Convert.ToUInt16(D << 8 + E);
+                return Convert.ToUInt16((D << 8) + E);
             }
             set
             {
@@ -54,7 +54,7 @@ namespace CSharpBoy
         {
             get
             {
-                return Convert.ToUInt16(H << 8 + L);
+                return Convert.ToUInt16((H << 8) + L);
             }
             set
             {
