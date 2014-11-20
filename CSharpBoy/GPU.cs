@@ -7,9 +7,11 @@ using System.Threading.Tasks;
 namespace CSharpBoy
 {
     class GPU
-    {
-        /* GB GPU
-         * VRAM: 8K */
+    {/*
+    TODO: IMPLEMENT THE GPU HERE.......
+
+
+This is totally new block of comments */
 
         byte[] RAM = new byte[0x2000];
 
